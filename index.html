@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Chat app CSS illustration</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <!-- Shapes -->
+        <div class="left-shape"></div>
+        <div class="right-shape"></div>
+        <!-- The Chat App -->
+        <div class="chat-app">
+          <div class="bg">
+          <!-- The Top Of The Chat App -->
+          <div class="top-app">
+            <div class="author">
+              <i class="fa-solid fa-angle-left"></i>
+              <img src="images/avatar.jpg" alt="Samuel Green" class="author-img">
+              <div class="author-info">
+                <h2 class="author-title">Samuel Green</h2>
+                <p class="author-status">Available to Walk</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical dots"></i>
+          </div>
+          <!-- The Body Of The Chat App -->
+          <div class="body-app">
+            <!-- The Top Of The Body Chat App -->
+            <div class="top-body">
+              <p class="left-p">That sounds great. I’d be happy with that.</p>
+              <p class="left-p">Could you send over some pictures of your dog, please?</p>
+            </div>
+            <!-- The Mid Of The Body Chat App --> 
+            <div class="mid-body">
+              <ul class="dogs">
+                <li><img src="images/dog-image-1.jpg" alt="dog" class="dog-img"></li>
+                <li><img src="images/dog-image-2.jpg" alt="dog" class="dog-img"></li>
+                <li><img src="images/dog-image-3.jpg" alt="dog" class="dog-img"></li>
+              </ul>
+              <p class="right-p">Here are a few pictures. She’s a happy girl!</p>
+              <p class="right-p">Can you make it?</p>
+            </div>
+            <!-- The Bottom Of The Body Chat App --> 
+            <div class="bottom-body">
+              <p class="left-p">
+                She looks so happy! 
+                The time we discussed works. How long shall I take her out for?
+              </p>
+              <div class="form">
+                <div class="left-form">
+                  <label>
+                    <input type="radio" name="choose" class="radio"/>
+                  </label>
+                  <p class="radio-p">30 minute walk</p>
+                </div>
+                <h3 class="price">$29</h3>
+              </div>
+              <div class="form">
+                <div class="left-form">
+                  <label>
+                    <input type="radio" name="choose" class="radio" />
+                  </label>
+                  <p class="radio-p">1 hour walk</p>
+                </div>
+                <h3 class="price">$49</h3>
+              </div>
+            </div>
+          </div>
+          <!-- The Bottom Of The Chat App -->
+          <div class="bottom-app">
+            <form class="message">
+              <input type="text" placeholder="Type a message…">
+              <input type="submit" value="" class="message-submit">
+            </form>
+          </div>
+          </div>
+        </div>
+        <!-- Main Content -->
+        <div class="main-content">
+          <h1 class="main-title">Simple booking</h1>
+          <p class="main-p">
+            Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+            discuss arrangements and make bookings. Once the walk has been completed you can rate 
+            your walker and book again all through the chat.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
