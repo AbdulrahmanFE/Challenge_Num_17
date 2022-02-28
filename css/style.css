@@ -36,7 +36,7 @@
   }
   body {
     width: 100%;
-    min-height: 120vh;
+    min-height: 100vh;
     font-family: 'Rubik', sans-serif;
     background-color: hsl(270, 20%, 96%);
     Font-size: 16px;
@@ -67,9 +67,9 @@
   .left-shape {
     position: absolute;
     background: linear-gradient(333deg, var(--LightViolet), var(--LightMagenta));
-    width: 650px;
-    height: 800px;
-    left: -275px;
+    height: 775px;
+    width: 600px;
+    left: -8%;
     top: 0;
     z-index: -1;
     border-radius: 0 0 1000px 1000px;
@@ -77,9 +77,9 @@
   .right-shape {
     position: fixed;
     background: linear-gradient(0deg, #f0f0f0, #f0f0f0);
-    width: 640px;
-    height: 640px;
-    right: -250px;
+    width: 600px;
+    height: 700px;
+    right: -225px;
     bottom: 0;
     z-index: -1;
     border-radius: 1000px 1000px 0 0;
@@ -131,15 +131,15 @@
   }
 /* Styling The Chat App */
   main .container {
-    padding-top: 150px;
+    padding: 150px 0 ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
   @media (min-width: 1425px) {
     main .container {
-      width: 90%;
-      margin: 0 auto;
+      justify-content: space-between;
+      margin: 0 300px 0 400px;
     }
   }
   /* ----- Making The Container Responsive ----- */
@@ -206,7 +206,7 @@
   .author-title {
     color: var(--White);
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 2px;
   }
   .author-status {
@@ -343,6 +343,8 @@
   .main-title {
     color: var(--VeryDarkDesaturatedViolet);
     margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 37px;
   }
   .main-p {
     color: var(--DarkGrayishViolet);
