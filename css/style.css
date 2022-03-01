@@ -51,7 +51,7 @@
     font-size: 8px;
     line-height: 1.4;
     max-width: 58%;
-    padding: 6px 8px;
+    padding: 6px;
   }
   .left-p {
     color: var(--ModerateViolet);
@@ -131,14 +131,14 @@
   }
 /* Styling The Chat App */
   main .container {
-    padding: 147px 0;
+    padding: 148px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
   @media (min-width: 1400px) {
     main .container {
-      margin: 0 110px 0 215px;
+      margin: 0 110px 0 225px;
     }
   }
   /* ----- Making The Container Responsive ----- */
@@ -217,7 +217,7 @@
   }
   /* Styling The Body Of The Chat App */
   .body-app {
-    padding: 10px 5px 15px;
+    padding: 10px 8px 15px;
   }
   /* Styling The Top Of The Body Chat App */ 
   .top-body {
@@ -234,18 +234,24 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    gap: 8px;
   }
   .dogs {
     display: flex;
     justify-content: flex-end;
     gap: 8px;
+    margin-bottom: 6px;
   }
   .dog-img {
     width: 40px;
     height: 40px;
     border-radius: 25%;
     cursor: pointer;
+  }
+  .mid-body .right-p:first-of-type {
+    margin-bottom: 8px;
+    -webkit-box-shadow: 0px 4px 14px rgb(62 39 83 / 10%);
+    -moz-box-shadow: 0px 4px 14px rgb(62 39 83 / 10%);
+    box-shadow: 0px 4px 14px rgb(62 39 83 / 10%);
   }
 /* Styling The Bottom Of The Body Chat App */
   .bottom-body {
@@ -288,11 +294,11 @@
   }
   .price {
     color: var(--White);
-    font-size: 12px;
+    font-size: 13px;
   }
 /* Styling The Bottom Of The Chat App */
   .bottom-app {
-    padding: 0 5px 10px;
+    padding: 0 8px 10px;
   }
   .message {
     background-color: var(--White);
