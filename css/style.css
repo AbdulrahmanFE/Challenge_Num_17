@@ -38,7 +38,7 @@
     width: 100%;
     min-height: 100vh;
     font-family: 'Rubik', sans-serif;
-    background-color: hsl(270, 20%, 96%);
+    background-color: rgb(245 243 247 / 70%);
     Font-size: 16px;
   }
   i {
@@ -49,7 +49,7 @@
   .left-p ,
   .right-p {
     font-size: 8px;
-    line-height: 1.3;
+    line-height: 1.4;
     max-width: 58%;
     padding: 6px 8px;
   }
@@ -131,14 +131,14 @@
   }
 /* Styling The Chat App */
   main .container {
-    padding: 145px 0;
+    padding: 146px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
   @media (min-width: 1400px) {
     main .container {
-      margin: 0 100px 0 200px;
+      margin: 0 110px 0 210px;
     }
   }
   /* ----- Making The Container Responsive ----- */
@@ -293,7 +293,7 @@
   }
   .message {
     background-color: var(--White);
-    padding: 4px 10px 4px 15px;
+    padding: 8px 10px 6px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -335,7 +335,7 @@
     font-family: "Font Awesome 6 Free";
     content: "\f105";
     font-weight: 900;
-    font-size: 12px;
+    font-size: 14px;
     cursor: pointer;
     color: var(--White)
   }
