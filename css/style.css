@@ -131,14 +131,14 @@
   }
 /* Styling The Chat App */
   main .container {
-    padding: 146px 0;
+    padding: 147px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
   @media (min-width: 1400px) {
     main .container {
-      margin: 0 110px 0 210px;
+      margin: 0 110px 0 215px;
     }
   }
   /* ----- Making The Container Responsive ----- */
@@ -158,6 +158,9 @@
     padding: 10px 10px;
     border-radius: 32px;
     overflow: hidden;
+    -webkit-box-shadow: 0px 14px 18px rgb(62 39 83 / 12%);
+    -moz-box-shadow: 0px 14px 18px rgb(62 39 83 / 12%);
+    box-shadow: 0px 14px 18px rgb(62 39 83 / 12%);
   }
   .bg {
     background-color: hsl(270, 20%, 96%);
@@ -179,7 +182,7 @@
     background: linear-gradient(to right, var(--LightViolet), var(--LightMagenta));
     width: 100%;
     padding: 30px 16px 12px;
-    border-radius: 20px 20px 8px 8px;
+    border-radius: 20px 20px 6px 6px;
     -webkit-box-shadow: 0px 4px 8px rgb(62 39 83 / 15%);
     -moz-box-shadow: 0px 4px 8px rgb(62 39 83 / 15%);
     box-shadow: 0px 4px 8px rgb(62 39 83 / 15%);
@@ -200,7 +203,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 9px;
   }
   .author-title {
     color: var(--White);
@@ -222,7 +225,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 6px;
+    gap: 8px;
   }
 /* Styling The Mid Of The Body Chat App */
   .mid-body {
@@ -231,7 +234,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    gap: 6px;
+    gap: 8px;
   }
   .dogs {
     display: flex;
@@ -250,7 +253,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 8px;
   }
   .form {
     display: flex;
@@ -258,8 +261,8 @@
     justify-content: space-between;
     background: linear-gradient(to right, var(--LightMagenta), var(--LightViolet));
     width: 73%;
-    padding: 10px 15px 10px 10px;
-    border-radius: 12px 12px 12px 4px;
+    padding: 8px 15px 8px 10px;
+    border-radius: 10px 10px 10px 4px;
   }
   .left-form {
     display: flex;
@@ -280,7 +283,7 @@
     display: none;
   }
   .radio-p {
-    font-size: 9px;
+    font-size: 8px;
     color: white;
   }
   .price {
@@ -293,7 +296,7 @@
   }
   .message {
     background-color: var(--White);
-    padding: 8px 10px 6px 15px;
+    padding: 6px 10px 4px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
